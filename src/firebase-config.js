@@ -24,3 +24,21 @@ export function getFirebaseConfig() {
     return config;
   }
 }
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCpnS5SCmA4mDVtJopI-JPpr4DXKkOwrIQ",
+  authDomain: "friendlychat-77700.firebaseapp.com",
+  projectId: "friendlychat-77700",
+  storageBucket: "friendlychat-77700.appspot.com",
+  messagingSenderId: "115392359864",
+  appId: "1:115392359864:web:a9c0c0dbf77e725271b34d"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);

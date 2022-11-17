@@ -1,3 +1,6 @@
+
+
+
 /**
  * Copyright 2015 Google Inc. All Rights Reserved.
  *
@@ -350,3 +353,4 @@ initializeApp(firebaseAppConfig);
 
 initFirebaseAuth();
 loadMessages();
+
